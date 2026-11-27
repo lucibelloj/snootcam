@@ -19,15 +19,28 @@ a{color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:1rem;padding:1rem 1.25rem;margin:1rem 0}
 nav{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1rem}
 footer{margin-top:2.5rem;color:var(--muted);font-size:.9rem}
+.card h2{margin-top:0}
+ul{padding-left:1.25rem}
 </style>
 </head>
 <body>
 <main>
 <h1>Snoot Cam</h1>
-<p>A simple camera for little ones. Pick a silly face filter, tap the big button, and the photo is saved to the phone.</p>
-<div class="card">
-<p>No accounts, no ads, no purchases, and no internet connection needed. Snoot Cam collects nothing from you or your child.</p>
-</div>
+<p>A simple camera for little ones. Pick a silly face filter, tap the big button for a photo or hold it for a short video, and it is saved to the phone.</p>
+<section class="card" aria-labelledby="parents">
+<h2 id="parents">For parents</h2>
+<ul>
+<li>No ads, no tracking or analytics, and no code from other companies.</li>
+<li>No accounts, no sign-up and no in-app purchases.</li>
+<li>No internet features: the app works offline and sends nothing off your iPhone.</li>
+<li>The camera picture and face tracking are used on the iPhone only to show the filters and make the photos and videos. The app keeps no copy.</li>
+<li>Photos and videos are saved only to your Photos library. The app can add to it but cannot see your other photos.</li>
+<li>The microphone is on only while your child holds the button to record a video.</li>
+<li>Your child&rsquo;s screen has no links, sharing or chat. The grown-ups area, with the settings and the privacy policy link, is behind a grown-up check.</li>
+<li>You choose which filters your child can see.</li>
+</ul>
+<p>Read the <a href="privacy.html">Privacy Policy</a> or get help on the <a href="support.html">Support</a> page.</p>
+</section>
 <nav><a href="privacy.html">Privacy Policy</a> <a href="support.html">Support</a></nav>
 <footer>&copy; Joseph Lucibello &middot; <a href="https://buymeacoffee.com/josephlucie" rel="noopener">Buy me a coffee</a></footer>
 </main>
